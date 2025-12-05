@@ -8,6 +8,7 @@ app.use(express.json())
 
 app.use("/user",U_router)
 app.use("/book",B_router)
+app.use("/movie",M_router)
 
 app.listen(5070,()=>{
     console.log("kkk")
